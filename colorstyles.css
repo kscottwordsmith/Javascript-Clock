@@ -1,0 +1,41 @@
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+body {
+	/*background: #00ff00;*/
+}
+
+#container {
+	display: flex;
+	justify-content: center;
+}
+
+#colortainer {
+	width: 500px;
+	height: 500px;
+	display: block;
+	position: relative;
+}
+
+/*#clock:after {
+	content: '';
+	background: url(https://media.istockphoto.com/photos/alien-picture-id590147780?k=6&m=590147780&s=612x612&w=0&h=X4wGo890S95t7q_BF7RsArTHA50VYMgXCpn4TCkz8jU=);
+	opacity: 0.12;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
+}*/
+
+#currentcolor {
+	color: white;
+	font-size: 35px;
+	/*font-family: 'Major Mono Display', monospace;*/
+	color: white;
+	margin-top: 7em;
+	position: absolute;
+	top: 0;
+	left: 140px;
+}

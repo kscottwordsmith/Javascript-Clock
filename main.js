@@ -5,5 +5,3 @@ $(document).ready(function(){
 		clockPut.innerHTML = `${time.getHours()}:${time.getMinutes()}:${time.getSeconds()}`
 	}, 1000)
 })
-
-//toLocaleTimeString('en-US')
