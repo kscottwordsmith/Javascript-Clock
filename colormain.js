@@ -6,5 +6,3 @@ $(document).ready(function(){
 		$('body').css('background', `#${time.getHours().toString(16)}${time.getMinutes().toString(16)}${time.getSeconds().toString(16)}`)
 	}, 500)
 })
-
-//`#${colorThous.toString(16)}${colorHunds.toString(16)}${colorTens.toString(16)}`
